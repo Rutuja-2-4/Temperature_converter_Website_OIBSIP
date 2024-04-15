@@ -1,0 +1,81 @@
+/* style.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("https://png.pngtree.com/background/20230611/original/pngtree-the-thermometer-in-sunlight-is-showing-an-average-temperature-picture-image_3165112.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.converter-box {
+  background-color: rgb(47, 45, 74);
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Added a box shadow */
+}
+
+.converter-section {
+  flex: 1;
+  padding: 10px;
+  background-color: white; /* Added white background color for the first section */
+}
+
+.result-section {
+  flex: 1;
+  padding: 10px;
+  background-color: #25283D; /* Added dark navy blue background color for the second section */
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 93%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#converted-temp {
+  font-size: 18px;
+  text-align: center;
+  color: hsl(300, 94%, 49%) !important; /* Ensure that the color is set to purple */
+}
+.result-section h2 {
+  color: aqua; /* Set aqua color for the heading */
+}
